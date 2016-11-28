@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int num1, num2, answer;
+
+int main()
+{
+    cout << "welcome to my subtraction calculator!" << endl;
+
+    cout << "please enter your first number!";
+    cin >> num1;
+    cout << "you have entered " << num1 << endl;
+
+    cout << "please enter your second number!";
+    cin >> num2;
+    cout << "you have entered " << num2 << endl;
+
+    answer = num1 - num2;
+
+    cout << answer << endl;
+
+    return 0;
+}
